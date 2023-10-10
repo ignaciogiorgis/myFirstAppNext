@@ -1,10 +1,11 @@
 import Image from 'next/image'
+import Layout from './layout'
+import Navigation from '../../Components/Navigation'
 
 export default function Home() {
   return (
-    <div>
-      <h1>desde page en /</h1>
-      <h2>Menu</h2>
-    </div>
+    <Layout>
+      <Navigation />
+    </Layout>
   )
 }
