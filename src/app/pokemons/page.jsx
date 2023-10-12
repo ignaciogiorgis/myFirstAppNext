@@ -1,10 +1,11 @@
-import React from 'react'
-const page = () => {
+import ListPokemons from './ListPokemons'
+
+const Page = () => {
   return (
     <div>
-      page desde pokemons{' '}
+      <ListPokemons />
     </div>
   )
 }
 
-export default page
+export default Page
